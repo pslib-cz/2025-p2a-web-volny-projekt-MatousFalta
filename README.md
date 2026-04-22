@@ -37,7 +37,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 | Výstup | Odkaz |
 |---|---|
-| GitHub Pages (live) | [`https://pslib-cz.github.io/2025-p2a-web-volny-projekt-MatousFalta/`](#) |
+| GitHub Pages (live) | [`GitHub Pages`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-MatousFalta/) |
 | Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
 | Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
 | Fotografie / média | [`Doplň odkaz`](#) |
