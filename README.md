@@ -11,7 +11,7 @@
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
 
-`Projekt se věnuje zviditelnění živnostníka, který provozuje salon s permanentním makeupem. Web by měl řešit nedostatečnou viditelnost salonu na internetu a usnadnit potenciálním klientkám vyhledání informací a kontaktování salonu. Výsledkem to    hoto projektu by měla být webová stránka`
+`Projekt se věnuje zviditelnění živnostníka, který provozuje salon s permanentním makeupem. Web by měl řešit nedostatečnou viditelnost salonu na internetu a usnadnit potenciálním klientkám vyhledání informací a kontaktování salonu. Výsledkem tohoto projektu by měla být webová stránka`
 
 
 ---
