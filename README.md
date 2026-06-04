@@ -2,7 +2,7 @@
 
 > **Jméno a příjmení:** `Matouš Falta`
 
-> **Název projektu:** `Doplňte`
+> **Název projektu:** `Permanent make-up by PeDro`
 
 ---
 
@@ -39,7 +39,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 |---|---|
 | GitHub Pages (live) | [`GitHub Pages`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-MatousFalta/) |
 | Grafický manuál (Figma / Canva) | [`Moodboard + Grafický manuál`](https://www.figma.com/design/2zCkd3SS7pzGfCBAIJgSqU/FaltaMatou%C5%A1?node-id=0-1&t=hNTf8Q0QxhxRjD1R-1) |
-| Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
+| Grafický návrh webu (Figma) | [`Design Figma`](https://www.figma.com/design/2zCkd3SS7pzGfCBAIJgSqU/FaltaMatou%C5%A1?node-id=41-4&t=EUzxNB0anr3jejUa-1) |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
