@@ -78,17 +78,25 @@
   html {
     scroll-behavior: smooth;
   }
+
+  h1 {
+    margin: 0;
+  }
+
+  address {
+    font-style: normal;
+  }
 }
 
 @layer design {
   body {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: 1fr;
     min-height: 100vh;
   }
 
-  .swiper{
+  .swiper {
     width: 100%;
     max-width: 1440px;
     margin-inline: auto;
@@ -130,8 +138,12 @@
     object-fit: contain;
   }
 
+  .page-header {
+    box-shadow: 0 4px 20px 4px rgba(0, 0, 0, 0.25);
+  }
+
   .page-header__navigation {
-    margin: 1rem 1.25rem;
+    padding: 1rem 1.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -195,7 +207,7 @@
     display: block;
     width: 100%;
     height: 4px;
-    border-radius: 2px;
+    border-radius: 4px;
     left: 0;
     background: var(--black);
     transition: all 0.3s ease-in-out;
@@ -229,17 +241,223 @@
   }
 
   .page-header__brand a {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
+    display: inline-block;
     text-decoration: none;
     color: var(--black);
   }
 
+  .page-header__brand-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
   .page-header__brand-logo {
-    width: 60px;
+    width: 2.75rem;
     height: auto;
     object-fit: contain;
+  }
+
+  .about-me__title {
+    text-align: center;
+    font-family: var(--playfair-display);
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    padding-top: 2.5rem;
+  }
+
+  .text__mark {
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .about-me__section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 400px));
+    justify-content: center;
+    margin: 0 auto;
+    gap: 2.5rem;
+    padding: 2.5rem;
+  }
+
+  .first-section__image {
+    aspect-ratio: 3/4;
+  }
+
+  .second-section__image {
+    aspect-ratio: 3/4;
+  }
+
+  .first-section__image img {
+    border-radius: 16px;
+  }
+
+  .second-section__image img {
+    border-radius: 16px;
+  }
+
+  .second-section__text {
+    color: var(--white);
+    order: 1;
+  }
+
+  .section__text {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .about-me__second-section {
+    background-color: var(--black);
+  }
+
+  .section__text p {
+    line-height: 22px;
+
+  }
+
+  .max-width {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+
+  .contact__main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .contact__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--black);
+  }
+
+  .contact__info-item {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+  }
+
+  .contact__title {
+    text-align: center;
+    font-family: var(--playfair-display);
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-bold);
+    padding-top: 2.5rem;
+    padding-bottom: 3.25rem;
+  }
+
+  .contact__info-container {
+    border-top: 2px solid var(--black);
+    border-bottom: 2px solid var(--black);
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+  }
+
+  .contact__image-container {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact__link {
+    text-decoration: none;
+    display: block;
+    color: var(--black);
+  }
+
+  .contact__text {
+    flex-grow: 1;
+  }
+
+  .contact__span {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-semibold);
+    display: block;
+  }
+
+  .contact__socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+  }
+
+  .contact__socials-item {
+    display: block;
+    text-align: center;
+    flex-grow: 1;
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  .contact__socials-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+    margin: 0 auto 0.5rem auto;
+  }
+
+  .contact__socials-span {
+    display: block;
+    transition: 0.2s ease-in-out;
+  }
+
+  .contact__socials-item:hover .contact__socials-span {
+    transform: scale(1.05);
+    color: var(--color-dark-copper);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  .contact__map {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: #ccc;
+  }
+
+  .contact__map-iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .contact__socials::before,
+  .contact__socials::after {
+    content: "";
+    width: 2px;
+    align-self: stretch;
+    background-color: var(--black);
+    flex-shrink: 0;
+  }
+
+  .contact__socials::before {
+    order: 1;
+  }
+
+  .contact__socials::after {
+    order: 3;
+  }
+
+  .contact__socials-item:nth-child(1) {
+    order: 0;
+  }
+
+  .contact__socials-item:nth-child(2) {
+    order: 2;
+  }
+
+  .contact__socials-item:nth-child(3) {
+    order: 4;
   }
 
   .page-footer::before {
@@ -247,7 +465,7 @@
     display: block;
     height: 2px;
     background-color: var(--black);
-    margin: 0 1.5rem 2rem 1.5rem;
+    margin: 2.5rem 1.5rem 2rem 1.5rem;
   }
 
   .page-footer__grid {
@@ -370,6 +588,13 @@
         "menu services contact";
     }
 
+    .page-header__brand-logo {
+      width: 3.75rem;
+    }
+
+    .about-me__title {
+      font-size: 3rem;
+    }
   }
 
   @media (min-width: 960px) {
@@ -384,6 +609,7 @@
     }
 
     .navbar__link {
+      display: block;
       font-weight: var(--font-weight-semibold);
       font-family: var(--montserrat);
       font-size: 1rem;
@@ -391,6 +617,15 @@
       text-decoration: none;
       text-align: center;
       padding: 1.25rem;
+    }
+
+    .navbar__link-active {
+      border-bottom: 2px solid var(--color-copper);
+      ;
+    }
+
+    .navbar__link:not(.navbar__link-active):hover {
+      color: var(--color-copper);
     }
 
     .page-header__brand-text {
@@ -408,6 +643,15 @@
 
     .page-header__brand-logo {
       width: 5rem;
+    }
+
+    .about-me__section {
+      padding: 2.5rem 6rem 2.5rem 6rem;
+      max-width: 1440px;
+    }
+
+    .second-section__text {
+      order: -1;
     }
 
     .page-footer__brand-container {

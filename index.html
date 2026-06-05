@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/svg+xml" href="Images/logo.svg">
+    <link rel="icon" type="image/svg+xml" href="Images/logos/logo.svg">
     <script type="module" src="./js/main.js"></script>
     <title>Permanentní make-up v České Lípě</title>
 </head>
 
 <body>
     <header class="page-header">
-        <nav class="page-header__navigation" aria-label="navigace">
+        <nav class="page-header__navigation max-width" aria-label="navigace">
             <div class="page-header__brand">
                 <a href="index.html">
-                    <img src="Images/logo.svg" alt="logo PMU by PeDro" class="page-header__brand-logo">
-                    <div class="page-header__brand-text">
-                        <p class="page-header__brand-title">
-                            Permanent make-up
-                            <span class="page-header__brand-subtitle">by&nbsp;PeDro</span>
-                        </p>
+                    <div class="page-header__brand-container">
+                        <img src="Images/logos/logo.svg" alt="logo PMU by PeDro" width="80" height="65"
+                            class="page-header__brand-logo">
+                        <div class="page-header__brand-text">
+                            <p class="page-header__brand-title">
+                                Permanent make-up
+                                <span class="page-header__brand-subtitle">by&nbsp;PeDro</span>
+                            </p>
+                        </div>
                     </div>
                 </a>
             </div>
@@ -34,11 +37,21 @@
 
             <div class="navbar">
                 <menu class="navbar__menu">
-                    <li class="navbar__item"><a href="index.html" class="navbar__link">Domů</a></li>
-                    <li class="navbar__item"><a href="services.html" class="navbar__link">Služby</a></li>
-                    <li class="navbar__item"><a href="pricing.html" class="navbar__link">Ceník</a></li>
-                    <li class="navbar__item"><a href="about_me.html" class="navbar__link">O mně</a></li>
-                    <li class="navbar__item"><a href="contact.html" class="navbar__link">Kontakt</a></li>
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__link    navbar__link-active">Domů</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="services.html" class="navbar__link">Služby</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="pricing.html" class="navbar__link">Ceník</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="about_me.html" class="navbar__link">O mně</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="contact.html" class="navbar__link ">Kontakt</a>
+                    </li>
                 </menu>
             </div>
         </nav>
@@ -52,11 +65,10 @@
                 <a href="contact.html" class="hero-section__button">OBJEDNAT SE</a>
             </div>
         </section>
-        <section class="main__portfolio">
+        <section class="main__portfolio max-width">
             <div class="portfolio__container">
                 <h2 class="portfolio__title">Ukázky práce</h2>
                 <div class="swiper">
-
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <figure class="swiper__item">
@@ -98,10 +110,10 @@
     </main>
 
     <footer class="page-footer">
-        <div class="page-footer__grid">
+        <div class="page-footer__grid max-width">
             <div class="page-footer__brand-container">
                 <div class="page-footer__brand-logo">
-                    <a href="index.html"><img src="Images/logo.svg" alt="logo" class="page-footer__logo"></a>
+                    <a href="index.html"><img src="Images/logos/logo.svg" alt="logo" class="page-footer__logo"></a>
                 </div>
                 <div class="page-footer__brand-socials">
                     <div class="page-footer__brand-text">
@@ -111,12 +123,12 @@
                         </p>
                     </div>
                     <div class="page-footer__socials">
-                        <a href="#" class="page-footer__social-link"><img src="Images/instagram.svg"
+                        <a href="#" class="page-footer__social-link"><img src="Images/logos/instagram.svg"
                                 alt="logo instagram" class="page-footer__icon"></a>
-                        <a href="#" class="page-footer__social-link"><img src="Images/facebook.svg" alt="logo facebook"
-                                class="page-footer__icon"></a>
-                        <a href="#" class="page-footer__social-link"><img src="Images/whatsapp.svg" alt="logo whatsapp"
-                                class="page-footer__icon"></a>
+                        <a href="#" class="page-footer__social-link"><img src="Images/logos/facebook.svg"
+                                alt="logo facebook" class="page-footer__icon"></a>
+                        <a href="#" class="page-footer__social-link"><img src="Images/logos/whatsapp.svg"
+                                alt="logo whatsapp" class="page-footer__icon"></a>
                     </div>
                 </div>
             </div>
@@ -159,18 +171,19 @@
 
             <div class="page-footer__column page-footer__contact">
                 <h3 class="page-footer__title">Kontakt</h3>
-                <ul class="page-footer__list">
-                    <li class="page-footer__item">
+                <address class="page-footer__list">
+                    <div class="page-footer__item">
                         <a href="https://maps.app.goo.gl/qNXN46SvYFjfDjZ58" target="_blank" class="page-footer__link">U
-                            Synagogy 700/4 <span class="page-footer__city">470 01, Česká Lípa</span></a>
-                    </li>
-                    <li class="page-footer__item">
+                            Synagogy 700/4
+                            <span class="page-footer__city">470 01, Česká Lípa</span></a>
+                    </div>
+                    <div class="page-footer__item">
                         <a href="mailto:PeDro@gmail.com" class="page-footer__link">PeDro@gmail.com</a>
-                    </li>
-                    <li class="page-footer__item">
+                    </div>
+                    <div class="page-footer__item">
                         <a href="tel:+420547468787" class="page-footer__link">547&nbsp;468&nbsp;787</a>
-                    </li>
-                </ul>
+                    </div>
+                </address>
             </div>
         </div>
         <div class="page-footer__bottom">

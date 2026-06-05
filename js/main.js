@@ -26,3 +26,8 @@ window.addEventListener('resize', () => {
         
     }
 });
+
+
+
+
+
