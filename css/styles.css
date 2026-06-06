@@ -296,7 +296,7 @@
   .second-section__image img {
     border-radius: 16px;
   }
-contact__image
+  
   .second-section__text {
     color: var(--white);
     order: 1;
@@ -310,6 +310,7 @@ contact__image
   }
 
   .about-me__second-section {
+    color: var(--white);
     background-color: var(--black);
   }
 
