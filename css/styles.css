@@ -57,6 +57,7 @@
     --color-bg-price-card: #E2C9BB;
     --color-error: #C0392B;
     --color-forms: #302F2E;
+    --color-forms-placeholder-text: #CCB9A8;
 
     --montserrat: "Montserrat", sans-serif;
     --playfair-display: "Playfair Display", serif;
@@ -295,7 +296,7 @@
   .second-section__image img {
     border-radius: 16px;
   }
-
+contact__image
   .second-section__text {
     color: var(--white);
     order: 1;
@@ -342,6 +343,7 @@
   }
 
   .contact__title {
+    grid-area: title;
     text-align: center;
     font-family: var(--playfair-display);
     font-size: 2.5rem;
@@ -351,6 +353,10 @@
   }
 
   .contact__info-container {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-top: 2px solid var(--black);
     border-bottom: 2px solid var(--black);
     padding-top: 2rem;
@@ -419,8 +425,9 @@
   }
 
   .contact__map {
+    grid-area: map;
     width: 100%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 16/9;
     background-color: #ccc;
   }
 
@@ -458,6 +465,139 @@
 
   .contact__socials-item:nth-child(3) {
     order: 4;
+  }
+
+  .contact__section-address {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "info"
+      "map";
+    gap: 2rem;
+  }
+
+  .contact__section-form {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 1.5rem;
+  }
+
+  .section-form__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .section__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .section-form__field {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+  }
+
+  .section-form__row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .section-form__field label {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-copper);
+  }
+
+  .section-form__field input,
+  .section-form__field textarea {
+    padding: 1rem .5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-forms);
+    color: var(--white);
+    font-size: 1.25rem;
+  }
+
+  .section-form__field textarea {
+    min-height: 200px;
+    resize: vertical;
+  }
+
+  .section-form__checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 0.875rem;
+  }
+
+  .section-form__lable-text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-form__span {
+    font-size: .875rem;
+  }
+
+  .section-form__checkbox-label a {
+    color: var(--color-copper);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  .section-form__checkbox-label input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid var(--color-copper);
+    position: relative;
+    transition: background-color 0.2s ease;
+    border-radius: 4px;
+  }
+
+  .section-form__checkbox-label input[type="checkbox"]:checked {
+    background-color: var(--color-copper);
+  }
+
+  .section-form__checkbox-label input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 6px;
+    height: 11px;
+    border: 2px solid var(--white);
+    border-top: none;
+    border-left: none;
+    transform: translate(-50%, -60%) rotate(45deg);
+  }
+
+  .section-form__submit button {
+    width: 100%;
+    max-width: 280px;
+    padding: 1rem;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--color-forms);
+    text-align: center;
+    color: var(--white);
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .section-form__submit {
+    text-align: center;
   }
 
   .page-footer::before {
@@ -592,6 +732,10 @@
       width: 3.75rem;
     }
 
+    .section-form__row {
+      grid-template-columns: 1fr 1fr;
+    }
+
     .about-me__title {
       font-size: 3rem;
     }
@@ -652,6 +796,51 @@
 
     .second-section__text {
       order: -1;
+    }
+
+    .contact__section-address {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "title title"
+        "info map";
+    }
+
+    .contact__map {
+      aspect-ratio: 1/1;
+    }
+
+    .contact__info-container {
+      padding: 0;
+      margin: 0;
+      border: none;
+      font-size: 1.5rem;
+    }
+
+    .contact__title{
+      font-size: 4rem;
+    }
+
+    .contact__info{
+      border: none;
+      gap: 2rem;
+    }
+
+    .contact__info-item {
+      gap: 2.5rem;
+    }
+
+    .contact__span{
+      font-size: 2rem;
+    }
+
+    .contact__icon{
+      width: 4rem;
+      height: 4rem;
+    }
+    
+    .contact__socials-icon{
+      width: 4rem;
+      height: 4rem;
     }
 
     .page-footer__brand-container {

@@ -103,12 +103,37 @@
                     referrerpolicy="no-referrer-when-downgrade" class="contact__map-iframe"></iframe></div>
         </section>
         <section class="contact__section-form">
-            <h2 class="section__form-title">Zanechte mi zprávu</h2>
-            <form class="section__form">
-                <label for="name">
-                    Jméno a příjmení
-                    <input type="text" name="name">
+            <h2 class="section-form__title">Zanechte mi zprávu</h2>
+            <form class="section__form" action="#" method="post">
+                <div class="section-form__field">
+                    <label for="name">Jméno a příjmení</label>
+                    <input type="text" name="name" id="name" placeholder="Jana Nováková" required>
+                </div>
+                <div class="section-form__row">
+                    <div class="section-form__field">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="debra.holt@example.com" required>
+                    </div>
+                    <div class="section-form__field">
+                        <label for="tel"><span class="section-form__lable-text"><span>Telefon</span><span
+                                    class="section-form__span">nepovinné</span></span></label>
+                        <input type="tel" name="tel" id="tel" placeholder="458 257 954">
+                    </div>
+                </div>
+                <div class="section-form__field">
+                    <label for="message"><span class="section-form__lable-text"><span>Zpráva</span><span
+                                class="section-form__span">termín · typ zákroku · dotaz</span></span></label>
+                    <textarea name="message" id="message"
+                        placeholder="Ráda bych se objednala na pudrové obočí, preferuji dopoledne v týdnu."
+                        required></textarea>
+                </div>
+                <label class="section-form__checkbox-label">
+                    <input type="checkbox" name="privacy-policy">
+                    Souhlasím se zpracováním <a href="#">osobních údajů</a>
                 </label>
+                <div class="section-form__submit">
+                    <button type="submit">Odeslat</button>
+                </div>
             </form>
         </section>
     </main>
