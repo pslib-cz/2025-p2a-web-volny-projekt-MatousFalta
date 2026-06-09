@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/svg+xml" href="Images/logos/logo.svg">
+    <link rel="icon" type="image/svg+xml" href="Images/logo.svg">
     <script type="module" src="./js/main.js"></script>
     <title>Permanentní make-up v České Lípě</title>
 </head>
@@ -46,7 +46,7 @@
                         <a href="pricing.html" class="navbar__link">Ceník</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="about_me.html" class="navbar__link navbar__link-active">O mně</a>
+                        <a href="about_me.html" class="navbar__link">O mně</a>
                     </li>
                     <li class="navbar__item">
                         <a href="contact.html" class="navbar__link ">Kontakt</a>
@@ -57,66 +57,77 @@
     </header>
 
     <main>
-        <section class="main__about-me">
-            <h1 class="about-me__title">Můj příběh</h1>
-            <div class="about-me__first-section about-me__section">
-                <div class="first-section__image-wrapper">
-                    <img src="Images/about-me/Předávání diplomu.jpeg" alt="Předávání diplomu" loading="lazy" width="400" height="533">
+        <section class="main__service-intro max-width">
+            <h1 class="service-intro__title">Akvarelové <span>rty</span></h1>
+            <div class="service-intro__container">
+                <div class="service-intro__image-wrapper">
+                    <picture>
+                        <source srcset="Images/service-description/Akvarelové rty popis.webp" type="image/webp">
+                        <img src="Images/service-description/Akvarelové rty popis.png" alt="Akvarelové rty"
+                            class="service-intro__image" width="545" height="512" loading="lazy">
+                    </picture>
                 </div>
-                <div class="section__text">
-                    <p>
-                        <svg class="text__mark" width="32" height="28" viewBox="0 0 26 22" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M14.8688 22V15.9122C14.8688 12.7213 15.2385 10.1043 15.9778 8.06105C16.7446 6.0178 18.0315 4.28244 19.8388 2.85495C21.6461 1.42747 23.6998 0.475825 26 0V4.87022C24.3844 5.82187 23.467 7.0954 23.248 8.69082H26V22H14.8688ZM0 22V15.9122C0 12.7213 0.369667 10.1043 1.10901 8.06105C1.87572 6.0178 3.16271 4.28244 4.96997 2.85495C6.80462 1.42747 8.85833 0.475825 11.1311 0V4.87022C9.51552 5.82187 8.59819 7.0954 8.37913 8.69082H11.1311V22H0Z"
-                                fill="#B07840" />
-                        </svg>Celý život se zajímám o výtvarnictví (kreslení, malování obrazů,
-                        tetování, permanentní make-up) praktickým způsobem. Měl jsem také
-                        tu čest, pracovat jako tattér v tetovacím studiu u Christiana
-                        Tieslera (nyní Hoppe) v TC Tattoo Circle – Freiburg, který se
-                        tomuto oboru věnuje déle jak 30 let. A kde jsem měl také možnost,
-                        nasbírat spoustu zkušeností v klasickém tetovaní.
-                    </p>
-                    <p>
-                        Permanentní make-up je pro mě výjimečný obor, kterému se věnuji s
-                        opravdovou vášní. Tato práce mě baví a dává mi smysl. Zastávám
-                        filozofii, že základem krásy je vyváženost. Vždy proto pečlivě
-                        zohledňuji individuální rysy a proporce, abych dosáhl harmonického
-                        celku. Mým hlavním cílem je vytvořit naprosto přirozený efekt,
-                        který nenuceně zvýrazní vaši osobitou krásu.
+                <div class="service__text">
+                    <h2 class="service__subtitle">Vše, co potřebujete vědět o Akvarelových rtech</h2>
+                    <p class="service__description">Akvarelové rty (známé také jako lip blush) jsou vysoce populární
+                        technikou permanentního make-upu, která vašim rtům dodá zdravý barevný nádech, opticky je
+                        sjednotí a mírně zvětší. Zapomeňte na ostré, nepřirozené kontury z minulosti – pomocí této
+                        techniky vytvářím velmi plynulý přechod barvy, který připomíná efekt čerstvě naneseného
+                        tónovacího balzámu. Vaše rty budou vypadat plnější a svěžejší.</p>
+                    <p class="service__description">Ve svém studiu si zakládám na preciznosti a individuálním přístupu.
+                        Mým cílem je podtrhnout vaši přirozenou krásu, vyrovnat případné asymetrie a dodat vám pocit
+                        sebevědomí. Rád vás celým procesem provedu, zajistím váš maximální komfort a postarám se o to,
+                        abyste odcházeli s dokonalým úsměvem.
                     </p>
                 </div>
             </div>
-            <div class="about-me__second-section">
-                <div class="about-me__section max-width">
-                    <div class="second-section__image-wrapper">
-                        <img src="Images/about-me/Účastníci kurzu.jpeg" alt="Účastníci kurzu" loading="lazy" width="400" height="533">
-                    </div>
-                    <div class="section__text second-section__text">
-                        <p>
-                            <svg class="text__mark" width="32" height="28" viewBox="0 0 26 22" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.8688 22V15.9122C14.8688 12.7213 15.2385 10.1043 15.9778 8.06105C16.7446 6.0178 18.0315 4.28244 19.8388 2.85495C21.6461 1.42747 23.6998 0.475825 26 0V4.87022C24.3844 5.82187 23.467 7.0954 23.248 8.69082H26V22H14.8688ZM0 22V15.9122C0 12.7213 0.369667 10.1043 1.10901 8.06105C1.87572 6.0178 3.16271 4.28244 4.96997 2.85495C6.80462 1.42747 8.85833 0.475825 11.1311 0V4.87022C9.51552 5.82187 8.59819 7.0954 8.37913 8.69082H11.1311V22H0Z"
-                                    fill="#B07840" />
-                            </svg>
-                            Přestože mám jako bývalý tatér dlouholeté zkušenosti,
-                            permanentní make-up vyžaduje odlišný, mnohem jemnější přístup.
-                            Abych svůj přechod do tohoto oboru vzal hned od začátku za
-                            správný konec, absolvoval jsem kurz PMU BASIC v LaMajja
-                            království pod vedením školitelky Veroniky Petráš.
-                        </p>
-                        <p>
-                            Během tréninku jsem se zaměřil na specifika práce s obličejem a
-                            osvojení moderních technik aplikace. Kurz mi pomohl skloubit mou
-                            dosavadní praxi s maximální lehkostí a precizním detailem, který
-                            PMU vyžaduje. Mým cílem je nyní tvořit přirozený vzhled, který
-                            dokonale podtrhne vaše rysy, aniž by výsledek působil tvrdě nebo
-                            uměle.
-                        </p>
-                    </div>
-                </div>
+        </section>
+        <section class="main__service-process">
+            <div class="service-process__container max-width">
+                <h2 class="service-process__title">Co vás čeká během návštěvy:</h2>
+                <ul class="service-process__list">
+                    <li class="service-process__item"><span>Konzultace a výběr odstínu:</span>Společně vybereme barvu,
+                        která ideálně ladí s podtónem vaší pleti a vaším osobním stylem.</li>
+                    <li class="service-process__item"><span>Architektura rtů:</span>Precizně vyměřím a předkreslím tvar
+                        tak, abychom dosáhli dokonalé symetrie a plnosti.</li>
+                    <li class="service-process__item"><span>Znecitlivění a aplikace:</span>Po aplikaci lokálního
+                        anestetika pro váš maximální komfort šetrně vpravím pigment do svrchní vrstvy rtů.</li>
+                    <li class="service-process__item"><span>Péče po zákroku:</span>Detailně vám vysvětlím, jak o rty
+                        během hojení pečovat a hydratovat je, aby barva krásně sedla.</li>
+                </ul>
             </div>
+        </section>
+        <section class="service-details max-width">
+            <div class="service__text">
+                <h2 class="service__subtitle">Jak dlouho vydrží výsledek a jak probíhá hojení?</h2>
+                <p class="service__description">Krásně zbarvené a definované rty vám po této proceduře vydrží zpravidla
+                    <span>1,5 až 3 roky</span>. Životnost pigmentu závisí na řadě faktorů, jako je váš metabolismus, typ
+                    pleti, životní styl nebo frekvence vystavování slunečnímu záření bez UV ochrany.
+                </p>
+                <p class="service__description">Je naprosto normální, že bezprostředně po zákroku se barva jeví až o
+                    <span>30–50 % tmavší a sytější</span>, než jaký bude finální výsledek. Nemusíte se toho lekat. Během
+                    prvního týdne dojde k jemnému loupání pokožky a pigment postupně zesvětlá do požadovaného,
+                    přirozeného "akvarelového" stínu.
+                </p>
+                <p class="service__description">K dokonalému zafixování barvy a doladění detailů je nezbytná první
+                    korekce, kterou provádím po <span>6 až 8 týdnech</span> od prvního sezení. Během ní doplním místa,
+                    kde se pigment mohl zahojit světleji.</p>
+            </div>
+            <aside class="info-panel">
+                <h3 class="info-panel__title">Důležitá omezení pro Akvarelové rty</h3>
+                <p class="info-panel__text">Tato metoda je velmi šetrná a vhodná pro většinu klientů. Rty jsou ale
+                    specifickou oblastí, proto procedura <span>není&nbsp;vhodná</span> (nebo vyžaduje speciální
+                    přípravu), pokud:</p>
+                <ul class="info-panel__list">
+                    <li class="info-panel__item"><span>Trpíte na opary (Herpes simplex):</span> Pokud jste někdy v
+                        životě měli opar, je nutné nasadit antivirotika (např. Herpesin) jako prevenci několik dní před
+                        a po zákroku. Zákrok může vir aktivovat.</li>
+                    <li class="info-panel__item">Máte čerstvě aplikované výplně rtů (kyselina hyaluronová). Od aplikace
+                        výplně musí uplynout minimálně 4 týdny.</li>
+                    <li class="info-panel__item">Jste těhotná nebo aktuálně plně kojíte.</li>
+                    <li class="info-panel__item">Máte v oblasti rtů aktivní akné, ekzém nebo se vám špatně hojí jizvy.</li>
+                </ul>
+            </aside>
         </section>
     </main>
 
@@ -124,7 +135,7 @@
         <div class="page-footer__grid max-width">
             <div class="page-footer__brand-container">
                 <div class="page-footer__brand-logo">
-                    <a href="index.html"><img src="Images/logos/logo.svg" alt="logo" class="page-footer__logo"></a>
+                    <a href="index.html"><img src="Images/logos/logo.svg" alt="logo" class="page-footer__logo" loading="lazy"></a>
                 </div>
                 <div class="page-footer__brand-socials">
                     <div class="page-footer__brand-text">

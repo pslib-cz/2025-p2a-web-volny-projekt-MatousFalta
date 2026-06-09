@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/svg+xml" href="Images/logos/logo.svg">
+    <link rel="icon" type="image/svg+xml" href="Images/logo.svg">
     <script type="module" src="./js/main.js"></script>
     <title>Permanentní make-up v České Lípě</title>
 </head>
@@ -46,7 +46,7 @@
                         <a href="pricing.html" class="navbar__link">Ceník</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="about_me.html" class="navbar__link navbar__link-active">O mně</a>
+                        <a href="about_me.html" class="navbar__link">O mně</a>
                     </li>
                     <li class="navbar__item">
                         <a href="contact.html" class="navbar__link ">Kontakt</a>
@@ -57,66 +57,75 @@
     </header>
 
     <main>
-        <section class="main__about-me">
-            <h1 class="about-me__title">Můj příběh</h1>
-            <div class="about-me__first-section about-me__section">
-                <div class="first-section__image-wrapper">
-                    <img src="Images/about-me/Předávání diplomu.jpeg" alt="Předávání diplomu" loading="lazy" width="400" height="533">
+        <section class="main__service-intro max-width">
+            <h1 class="service-intro__title">Meziřasová <span>linka</span></h1>
+            <div class="service-intro__container">
+                <div class="service-intro__image-wrapper">
+                    <picture>
+                        <source srcset="Images/service-description/Meziřasová oční linka.webp" type="image/webp">
+                        <img src="Images/service-description/Meziřasová oční linka.png" alt="Meziřasová oční linka"
+                            class="service-intro__image" width="545" height="512" loading="lazy">
+                    </picture>
                 </div>
-                <div class="section__text">
-                    <p>
-                        <svg class="text__mark" width="32" height="28" viewBox="0 0 26 22" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M14.8688 22V15.9122C14.8688 12.7213 15.2385 10.1043 15.9778 8.06105C16.7446 6.0178 18.0315 4.28244 19.8388 2.85495C21.6461 1.42747 23.6998 0.475825 26 0V4.87022C24.3844 5.82187 23.467 7.0954 23.248 8.69082H26V22H14.8688ZM0 22V15.9122C0 12.7213 0.369667 10.1043 1.10901 8.06105C1.87572 6.0178 3.16271 4.28244 4.96997 2.85495C6.80462 1.42747 8.85833 0.475825 11.1311 0V4.87022C9.51552 5.82187 8.59819 7.0954 8.37913 8.69082H11.1311V22H0Z"
-                                fill="#B07840" />
-                        </svg>Celý život se zajímám o výtvarnictví (kreslení, malování obrazů,
-                        tetování, permanentní make-up) praktickým způsobem. Měl jsem také
-                        tu čest, pracovat jako tattér v tetovacím studiu u Christiana
-                        Tieslera (nyní Hoppe) v TC Tattoo Circle – Freiburg, který se
-                        tomuto oboru věnuje déle jak 30 let. A kde jsem měl také možnost,
-                        nasbírat spoustu zkušeností v klasickém tetovaní.
-                    </p>
-                    <p>
-                        Permanentní make-up je pro mě výjimečný obor, kterému se věnuji s
-                        opravdovou vášní. Tato práce mě baví a dává mi smysl. Zastávám
-                        filozofii, že základem krásy je vyváženost. Vždy proto pečlivě
-                        zohledňuji individuální rysy a proporce, abych dosáhl harmonického
-                        celku. Mým hlavním cílem je vytvořit naprosto přirozený efekt,
-                        který nenuceně zvýrazní vaši osobitou krásu.
+                <div class="service__text">
+                    <h2 class="service__subtitle">Vše, co potřebujete vědět o meziřasové lince</h2>
+                    <p class="service__description">Meziřasová linka (často nazývaná jako lash line enhancement) je
+                        jemná a elegantní metoda permanentního make-upu, která vizuálně zahustí vaše řasy a prohloubí
+                        pohled. Pigment je aplikován přímo mezi kořínky řas, nikoliv nad ně jako klasická oční linka.
+                        Vytváří tak naprosto přirozený efekt, díky kterému budou vaše oči vypadat jasnější a výraznější
+                        hned po probuzení, a to i zcela bez make-upu.</p>
+                    <p class="service__description">Oční okolí je velmi citlivé, proto k tomuto zákroku přistupuji s
+                        maximální precizností a jemností. Mým cílem je váš absolutní komfort, proto využívám kvalitní
+                        anestetika. Rád vám vše předem podrobně vysvětlím, abyste se cítili uvolněně a z výsledku byli
+                        jednoduše nadšeni.
                     </p>
                 </div>
             </div>
-            <div class="about-me__second-section">
-                <div class="about-me__section max-width">
-                    <div class="second-section__image-wrapper">
-                        <img src="Images/about-me/Účastníci kurzu.jpeg" alt="Účastníci kurzu" loading="lazy" width="400" height="533">
-                    </div>
-                    <div class="section__text second-section__text">
-                        <p>
-                            <svg class="text__mark" width="32" height="28" viewBox="0 0 26 22" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.8688 22V15.9122C14.8688 12.7213 15.2385 10.1043 15.9778 8.06105C16.7446 6.0178 18.0315 4.28244 19.8388 2.85495C21.6461 1.42747 23.6998 0.475825 26 0V4.87022C24.3844 5.82187 23.467 7.0954 23.248 8.69082H26V22H14.8688ZM0 22V15.9122C0 12.7213 0.369667 10.1043 1.10901 8.06105C1.87572 6.0178 3.16271 4.28244 4.96997 2.85495C6.80462 1.42747 8.85833 0.475825 11.1311 0V4.87022C9.51552 5.82187 8.59819 7.0954 8.37913 8.69082H11.1311V22H0Z"
-                                    fill="#B07840" />
-                            </svg>
-                            Přestože mám jako bývalý tatér dlouholeté zkušenosti,
-                            permanentní make-up vyžaduje odlišný, mnohem jemnější přístup.
-                            Abych svůj přechod do tohoto oboru vzal hned od začátku za
-                            správný konec, absolvoval jsem kurz PMU BASIC v LaMajja
-                            království pod vedením školitelky Veroniky Petráš.
-                        </p>
-                        <p>
-                            Během tréninku jsem se zaměřil na specifika práce s obličejem a
-                            osvojení moderních technik aplikace. Kurz mi pomohl skloubit mou
-                            dosavadní praxi s maximální lehkostí a precizním detailem, který
-                            PMU vyžaduje. Mým cílem je nyní tvořit přirozený vzhled, který
-                            dokonale podtrhne vaše rysy, aniž by výsledek působil tvrdě nebo
-                            uměle.
-                        </p>
-                    </div>
-                </div>
+        </section>
+        <section class="main__service-process">
+            <div class="service-process__container max-width">
+                <h2 class="service-process__title">Co vás čeká během návštěvy:</h2>
+                <ul class="service-process__list">
+                    <li class="service-process__item"><span>Individuální návrh:</span> Společně probereme intenzitu
+                        tetování, aby výsledek přirozeně ladil s tvarem vašich očí.</li>
+                    <li class="service-process__item"><span>Příprava a znecitlivění:</span> Aplikuji speciální lokální
+                        anestetikum pro váš maximální komfort během celé procedury.</li>
+                    <li class="service-process__item"><span>Precizní aplikace:</span> Šetrně a s citem vpravím pigment
+                        přímo do linie růstu vašich řas.</li>
+                    <li class="service-process__item"><span>Péče po zákroku:</span> Předám vám detailní instrukce, jak o
+                        oči pečovat, aby se linka bezchybně a rychle zahojila.</li>
+                </ul>
             </div>
+        </section>
+        <section class="service-details max-width">
+            <div class="service__text">
+                <h2 class="service__subtitle">Jak dlouho vydrží výsledek?</h2>
+                <p class="service__description">Efekt meziřasové linky je obecně velmi trvanlivý, obvykle vydrží
+                    <span>1,5 až 2 roky</span>. Pokožka na očních víčkách je tenká a neobsahuje tolik mazových žláz jako
+                    třeba oblast obočí, proto zde pigment drží o poznání déle a lépe. Přesná výdrž však vždy závisí na
+                    typu vaší pleti a metabolismu.
+                </p>
+                <p class="service__description">Zhruba <span>6 až 8 týdnů</span> po prvním sezení je doporučena drobná
+                    korekce. Během ní doladím sytost barvy a případně doplním místa, kde mohl pigment během procesu
+                    hojení mírně vyblednout, čímž zajistíme dokonalý a dlouhotrvající výsledek.</p>
+                <p class="service__description">Důležité upozornění: Pokud používáte séra na podporu růstu řas, je nutné
+                    je vysadit alespoň 4 týdny před zákrokem. Tato séra zvyšují citlivost a prokrvení víček, což by
+                    mohlo zkomplikovat usazení pigmentu a samotný průběh hojení.</p>
+            </div>
+            <aside class="info-panel">
+                <h3 class="info-panel__title">Pro koho je meziřasová linka vhodná?</h3>
+                <p class="info-panel__text">Zákrok je skvělou volbou pro téměř kohokoliv, kdo touží po výraznějším
+                    pohledu bez každodenního líčení. Z důvodu ochrany vašeho zdraví však procedura pro vás
+                    <span>není&nbsp;vhodná</span> , pokud:</p>
+                <ul class="info-panel__list">
+                    <li class="info-panel__item">Jste těhotná nebo aktuálně kojíte.</li>
+                    <li class="info-panel__item">Máte aktivní oční infekci, zánět spojivek nebo trpíte zeleným zákalem
+                        (glaukom).</li>
+                    <li class="info-panel__item">Užíváte léky na ředění krve nebo celkové retinoidy.</li>
+                    <li class="info-panel__item">Máte aktuálně aplikované umělé řasy (před zákrokem musí být bezpečně
+                        odstraněny).</li>
+                </ul>
+            </aside>
         </section>
     </main>
 
@@ -124,7 +133,7 @@
         <div class="page-footer__grid max-width">
             <div class="page-footer__brand-container">
                 <div class="page-footer__brand-logo">
-                    <a href="index.html"><img src="Images/logos/logo.svg" alt="logo" class="page-footer__logo"></a>
+                    <a href="index.html"><img src="Images/logos/logo.svg" alt="logo" class="page-footer__logo" loading="lazy"></a>
                 </div>
                 <div class="page-footer__brand-socials">
                     <div class="page-footer__brand-text">

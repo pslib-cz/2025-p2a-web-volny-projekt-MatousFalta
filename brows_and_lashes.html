@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/svg+xml" href="Images/logos/logo.svg">
+    <link rel="icon" type="image/svg+xml" href="Images/logo.svg">
     <script type="module" src="./js/main.js"></script>
     <title>Permanentní make-up v České Lípě</title>
 </head>
@@ -46,7 +46,7 @@
                         <a href="pricing.html" class="navbar__link">Ceník</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="about_me.html" class="navbar__link navbar__link-active">O mně</a>
+                        <a href="about_me.html" class="navbar__link">O mně</a>
                     </li>
                     <li class="navbar__item">
                         <a href="contact.html" class="navbar__link ">Kontakt</a>
@@ -57,66 +57,73 @@
     </header>
 
     <main>
-        <section class="main__about-me">
-            <h1 class="about-me__title">Můj příběh</h1>
-            <div class="about-me__first-section about-me__section">
-                <div class="first-section__image-wrapper">
-                    <img src="Images/about-me/Předávání diplomu.jpeg" alt="Předávání diplomu" loading="lazy" width="400" height="533">
+        <section class="main__service-intro max-width">
+            <h1 class="service-intro__title">Úprava <span>obočí a řas</span></h1>
+            <div class="service-intro__container">
+                <div class="service-intro__image-wrapper">
+                    <picture>
+                        <source srcset="Images/service-description/Úprava obočí a řas2.webp" type="image/webp">
+                        <img src="Images/service-description/Úprava obočí a řas2.png" alt="Úprava obočí a řas"
+                            class="service-intro__image" width="545" height="512" loading="lazy">
+                    </picture>
                 </div>
-                <div class="section__text">
-                    <p>
-                        <svg class="text__mark" width="32" height="28" viewBox="0 0 26 22" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M14.8688 22V15.9122C14.8688 12.7213 15.2385 10.1043 15.9778 8.06105C16.7446 6.0178 18.0315 4.28244 19.8388 2.85495C21.6461 1.42747 23.6998 0.475825 26 0V4.87022C24.3844 5.82187 23.467 7.0954 23.248 8.69082H26V22H14.8688ZM0 22V15.9122C0 12.7213 0.369667 10.1043 1.10901 8.06105C1.87572 6.0178 3.16271 4.28244 4.96997 2.85495C6.80462 1.42747 8.85833 0.475825 11.1311 0V4.87022C9.51552 5.82187 8.59819 7.0954 8.37913 8.69082H11.1311V22H0Z"
-                                fill="#B07840" />
-                        </svg>Celý život se zajímám o výtvarnictví (kreslení, malování obrazů,
-                        tetování, permanentní make-up) praktickým způsobem. Měl jsem také
-                        tu čest, pracovat jako tattér v tetovacím studiu u Christiana
-                        Tieslera (nyní Hoppe) v TC Tattoo Circle – Freiburg, který se
-                        tomuto oboru věnuje déle jak 30 let. A kde jsem měl také možnost,
-                        nasbírat spoustu zkušeností v klasickém tetovaní.
-                    </p>
-                    <p>
-                        Permanentní make-up je pro mě výjimečný obor, kterému se věnuji s
-                        opravdovou vášní. Tato práce mě baví a dává mi smysl. Zastávám
-                        filozofii, že základem krásy je vyváženost. Vždy proto pečlivě
-                        zohledňuji individuální rysy a proporce, abych dosáhl harmonického
-                        celku. Mým hlavním cílem je vytvořit naprosto přirozený efekt,
-                        který nenuceně zvýrazní vaši osobitou krásu.
+                <div class="service__text">
+                    <h2 class="service__subtitle">Vše, co potřebujete vědět o laminaci a liftingu</h2>
+                    <p class="service__description">Komplexní úprava obočí a řas, zahrnující techniky jako je lash
+                        lifting a laminace obočí, je ideální volbou pro ty, kteří hledají výraznou, ale přesto 100%
+                        přirozenou změnu bez použití jehel a permanentního pigmentu. Tato procedura vaše vlastní řasy
+                        bezpečně natočí od kořínků a obočí zafixuje do plnějšího, úhledného a moderního tvaru.</p>
+                    <p class="service__description">Jako profesionál vím, že správně upravený rám obličeje dělá divy. K
+                        úpravě používám jen ty nejšetrnější produkty, které chloupky nejen tvarují, ale díky obsahu
+                        vyživujících látek a keratinu je také posilují. Postarám se o to, abyste odcházeli s rozzářeným
+                        pohledem a pocitem naprosté péče.
                     </p>
                 </div>
             </div>
-            <div class="about-me__second-section">
-                <div class="about-me__section max-width">
-                    <div class="second-section__image-wrapper">
-                        <img src="Images/about-me/Účastníci kurzu.jpeg" alt="Účastníci kurzu" loading="lazy" width="400" height="533">
-                    </div>
-                    <div class="section__text second-section__text">
-                        <p>
-                            <svg class="text__mark" width="32" height="28" viewBox="0 0 26 22" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.8688 22V15.9122C14.8688 12.7213 15.2385 10.1043 15.9778 8.06105C16.7446 6.0178 18.0315 4.28244 19.8388 2.85495C21.6461 1.42747 23.6998 0.475825 26 0V4.87022C24.3844 5.82187 23.467 7.0954 23.248 8.69082H26V22H14.8688ZM0 22V15.9122C0 12.7213 0.369667 10.1043 1.10901 8.06105C1.87572 6.0178 3.16271 4.28244 4.96997 2.85495C6.80462 1.42747 8.85833 0.475825 11.1311 0V4.87022C9.51552 5.82187 8.59819 7.0954 8.37913 8.69082H11.1311V22H0Z"
-                                    fill="#B07840" />
-                            </svg>
-                            Přestože mám jako bývalý tatér dlouholeté zkušenosti,
-                            permanentní make-up vyžaduje odlišný, mnohem jemnější přístup.
-                            Abych svůj přechod do tohoto oboru vzal hned od začátku za
-                            správný konec, absolvoval jsem kurz PMU BASIC v LaMajja
-                            království pod vedením školitelky Veroniky Petráš.
-                        </p>
-                        <p>
-                            Během tréninku jsem se zaměřil na specifika práce s obličejem a
-                            osvojení moderních technik aplikace. Kurz mi pomohl skloubit mou
-                            dosavadní praxi s maximální lehkostí a precizním detailem, který
-                            PMU vyžaduje. Mým cílem je nyní tvořit přirozený vzhled, který
-                            dokonale podtrhne vaše rysy, aniž by výsledek působil tvrdě nebo
-                            uměle.
-                        </p>
-                    </div>
-                </div>
+        </section>
+        <section class="main__service-process">
+            <div class="service-process__container max-width">
+                <h2 class="service-process__title">Co vás čeká během návštěvy:</h2>
+                <ul class="service-process__list">
+                    <li class="service-process__item"><span>Konzultace a analýza:</span> Pečlivě zhodnotím stav vašich
+                        řas a obočí a navrhnu nejvhodnější tvar a postup.</li>
+                    <li class="service-process__item"><span>Lifting a fixace:</span> Pomocí šetrných roztoků nadzvednu
+                        řasy a zkrotím neposedné chloupky obočí do požadovaného směru.</li>
+                    <li class="service-process__item"><span>Zvýraznění barvou:</span> Pro maximální vizuální efekt
+                        chloupky precizně nabarvím odstínem, který k vám perfektně sedne.</li>
+                    <li class="service-process__item"><span>Hloubková výživa:</span> Na závěr aplikuji intenzivní
+                        keratinové sérum pro hloubkovou hydrataci, zdraví a lesk chloupků.</li>
+                </ul>
             </div>
+        </section>
+        <section class="service-details max-width">
+            <div class="service__text">
+                <h2 class="service__subtitle">Jak dlouho vydrží výsledek a jak o něj pečovat?</h2>
+                <p class="service__description">Výsledek úpravy, liftingu a laminace vydrží zpravidla
+                    <span>4 až 8 týdnů</span>. Tato doba nezávisí na blednutí barvy, ale je přímo úměrná přirozenému
+                    cyklu růstu a vypadávání vašich vlastních řas a chloupků obočí. Jakmile se chloupky přirozeně obmění
+                    za nové, efekt postupně odeznívá.
+                </p>
+                <p class="service__description">Následná údržba je naprosto minimální. Pouze <span>prvních 24
+                        hodin</span> po proceduře je zásadní vyhnout se kontaktu s vodou, párou, nadměrným pocením a
+                    make-upem, aby se tvar mohl správně zafixovat. Poté už můžete žít naprosto bez omezení – plavat,
+                    cvičit i používat oblíbenou řasenku pro ještě dramatičtější vzhled.</p>
+                <p class="service__description">Na rozdíl od permanentního make-upu se jedná o neinvazivní povrchovou
+                    úpravu. Proceduru tak můžeme pravidelně opakovat (ideálně po 6 týdnech), čímž si udržíte neustále
+                    upravený a svěží vzhled bez nutnosti ranního zdržování se před zrcadlem.</p>
+            </div>
+            <aside class="info-panel">
+                <h3 class="info-panel__title">Pro koho je tato péče vhodná?</h3>
+                <p class="info-panel__text">Úprava je skvělá pro klienty s rovnými řasami, asymetrickým či neposedným
+                    obočím, nebo prostě pro ty, kteří milují přirozený vzhled. Procedura pro vás však <span>není
+                        vhodná</span>, pokud:</p>
+                <ul class="info-panel__list">
+                    <li class="info-panel__item">Máte extrémně jemné, zničené nebo lámavé řasy a chloupky v obočí.</li>
+                    <li class="info-panel__item">Trpíte prokázanou alergií na barvy na vlasy nebo složky liftingových roztoků.</li>
+                    <li class="info-panel__item">Prodělali jste v nedávné době operaci očí nebo máte aktivní oční infekci.</li>
+                    <li class="info-panel__item">V oblasti očí a obočí se potýkáte s aktivním ekzémem, oděrkami či silně podrážděnou pokožkou.</li>
+                </ul>
+            </aside>
         </section>
     </main>
 
@@ -124,7 +131,7 @@
         <div class="page-footer__grid max-width">
             <div class="page-footer__brand-container">
                 <div class="page-footer__brand-logo">
-                    <a href="index.html"><img src="Images/logos/logo.svg" alt="logo" class="page-footer__logo"></a>
+                    <a href="index.html"><img src="Images/logos/logo.svg" alt="logo" class="page-footer__logo" loading="lazy"></a>
                 </div>
                 <div class="page-footer__brand-socials">
                     <div class="page-footer__brand-text">
