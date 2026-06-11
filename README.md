@@ -40,7 +40,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 | GitHub Pages (live) | [`GitHub Pages`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-MatousFalta/) |
 | Grafický manuál (Figma / Canva) | [`Moodboard`](https://www.figma.com/design/2zCkd3SS7pzGfCBAIJgSqU/FaltaMatou%C5%A1?node-id=0-1&t=hNTf8Q0QxhxRjD1R-1) |
 | Grafický návrh webu (Figma) | [`Design Figma`](https://www.figma.com/design/2zCkd3SS7pzGfCBAIJgSqU/FaltaMatou%C5%A1?node-id=41-4&t=EUzxNB0anr3jejUa-1) |
-| Fotografie / média | [`Doplň odkaz`](#) |
+| Fotografie / média | [`Fotky`](https://pslib.sharepoint.com/:f:/s/P2024A.MME-sk1/IgCHKfhz6fuDSJRCjWcQ1AiLAekNyz7QW4L2_Oh2Ex8mKYo?e=QGazFD) |
 | Grafický manuál (Figma / Canva) | [`Grafický manuál`](https://www.figma.com/design/2zCkd3SS7pzGfCBAIJgSqU/FaltaMatou%C5%A1?node-id=1252-1337&t=3oq5gZewvPshJWYT-1) |
 
 ---
