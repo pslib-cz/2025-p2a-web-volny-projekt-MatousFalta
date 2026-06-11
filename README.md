@@ -20,7 +20,9 @@ _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký probl�
 
 _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se můžete inspirovat?_
 
-[`Permanent Art`](https://www.permanentart.cz/) - web vyniká velmi vzdušným layoutem s dostatkem volného prostoru, intuitivní navigací a čistý, minimalistický design, který dává vizuálně vyniknout především samotným ukázkám práce. Naproti tomu, responsivita webu zaostává za standardem a zobrazení na obrazovkách mezi 1920px a 360px je nedomyšlené.
+[`Permanent Art`](https://www.permanentart.cz) - Web vyniká velmi vzdušným layoutem s dostatkem volného prostoru, intuitivní navigací a čistý, minimalistický design, který dává vizuálně vyniknout především samotným ukázkám práce. Naproti tomu, responsivita webu zaostává za standardem a zobrazení na obrazovkách mezi 1920px a 360px je nedomyšlené.
+
+[`Kendra Neal Studio`](https://www.kendranealstudio.com) - Studio permanentního make-upu staví svou prezentaci na ústředním heslu „beauty, simplified“. Samotný web vyniká vysoce profesionálním vizuálem, čistým layoutem a skvělým využitím prostoru, díky kterému naplno vynikají špičkové „před a po“ fotografie. Prostor pro zlepšení nicméně vidíme v obrovském množství obsahu na domovské stránce a přílišné koncentraci informací v určitých sekcích. Mezi slabší stránky patří také chování dynamických prvků na mobilních zařízeních a především zbytečně zdlouhavá cesta ke konkrétním ceníkům, která od uživatele vyžaduje příliš mnoho kroků a zbytečně tak narušuje jinak plynulý průchod webem.
 
 ---
 
